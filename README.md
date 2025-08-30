@@ -209,7 +209,7 @@ You can easily check this in your terminal or with this [online tool](https://ww
 You would need to select "Encrypt & Decrypt" tab:
 <img src="./assets/cryptool-1.png" alt="cryptool1" />
 
-Then paste command from the box above into "command" textbox and press "Run":
+Then paste command from the box above into terminal simulation and hit "Run":
 <img src="./assets/cryptool-2.png" alt="cryptool2" />
 
 You will see, that there is no "Bad Decrypt" error reported by OpenSSL.
