@@ -37,7 +37,7 @@ It is decoded easily as:
 substitute a -> 0 , b -> 1
 then convert binary to ASCII
 
-(Example flow)[https://gchq.github.io/CyberChef/#recipe=Substitute('ab','01',false)From_Binary('Space',8)&input=YWJiYWJiYWJhYmJhYWFhYmFiYmJhYmFhYWJiYmFhYmFhYmJhYmFhYmFiYmJiYWFhYWJiYmFhYmJhYmJiYWJhYmFiYmFiYmFiYWJiYWJiYWFhYmJhYmFhYmFiYmJhYWJiYWJiYmFiYWE]
+[Example flow](https://gchq.github.io/CyberChef/#recipe=Substitute('ab','01',false)From_Binary('Space',8)&input=YWJiYWJiYWJhYmJhYWFhYmFiYmJhYmFhYWJiYmFhYmFhYmJhYmFhYmFiYmJiYWFhYWJiYmFhYmJhYmJiYWJhYmFiYmFiYmFiYWJiYWJiYWFhYmJhYmFhYmFiYmJhYWJiYWJiYmFiYWE)
 
 Resulting piece of password is:
 ```
@@ -56,7 +56,7 @@ Next we see the following string:
 agdafaoaheiecggchgicbbhcgbehcfcoabicfdhhcdbbcagbdaiobbgbeadedde
 ```
 
-(Decode flow)[https://gchq.github.io/CyberChef/#recipe=Remove_whitespace(true,true,true,true,true,false)Substitute('abcdefghio','1234567890',false)To_Base(16)From_Hex('Auto')&input=YSBnIGQgYSBmIGEgbyBhIGggZSBpIGUgYyBnIGcgYyBoIGcgaSBjIGIgYiBoIGMgZyBiIGUgaCBjIGYgYyBvIGEgYiBpIGMgZiBkIGggaCBjIGQgYiBiIGMgYSBnIGIgZCBhIGkgbyBiIGIgZyBiIGUgYSBkIGUgZCBkIGU]
+[Decode flow](https://gchq.github.io/CyberChef/#recipe=Remove_whitespace(true,true,true,true,true,false)Substitute('abcdefghio','1234567890',false)To_Base(16)From_Hex('Auto')&input=YSBnIGQgYSBmIGEgbyBhIGggZSBpIGUgYyBnIGcgYyBoIGcgaSBjIGIgYiBoIGMgZyBiIGUgaCBjIGYgYyBvIGEgYiBpIGMgZiBkIGggaCBjIGQgYiBiIGMgYSBnIGIgZCBhIGkgbyBiIGIgZyBiIGUgYSBkIGUgZCBkIGU)
 
 
 
@@ -77,7 +77,7 @@ Next we see the following string:
 cfobfdhgdobdgooiigdocdaoofidh
 ```
 
-(Decode flow)[https://gchq.github.io/CyberChef/#recipe=Remove_whitespace(true,true,true,true,true,false)Substitute('abcdefghio','1234567890',false)To_Base(16)From_Hex('Auto')&input=YyBmIG8gYiBmIGQgaCBnIGQgbyBiIGQgZyBvIG8gaSBpIGcgZCBvIGMgZCBhIG8gbyBmIGkgZCBo]
+[Decode flow](https://gchq.github.io/CyberChef/#recipe=Remove_whitespace(true,true,true,true,true,false)Substitute('abcdefghio','1234567890',false)To_Base(16)From_Hex('Auto')&input=YyBmIG8gYiBmIGQgaCBnIGQgbyBiIGQgZyBvIG8gaSBpIGcgZCBvIGMgZCBhIG8gbyBmIGkgZCBo)
 
 Fourth piece of password is:
 ```
@@ -100,7 +100,7 @@ YBprimesmsllastwordsbeforearchichoicethis password
 
 Right after this we see "shabef" which means "SHA256", therefore we should calculate SHA sum of a previous puzzle pieces.
 
-(The flow)[https://gchq.github.io/CyberChef/#recipe=SHA2('256',64,160)&input=WUJwcmltZXNtc2xsYXN0d29yZHNiZWZvcmVhcmNoaWNob2ljZXRoaXMgcGFzc3dvcmQ]
+[The flow](https://gchq.github.io/CyberChef/#recipe=SHA2('256',64,160)&input=WUJwcmltZXNtc2xsYXN0d29yZHNiZWZvcmVhcmNoaWNob2ljZXRoaXMgcGFzc3dvcmQ)
 
 Result is:
 ```
@@ -135,7 +135,7 @@ It is decoded easily as:
 substitute a -> 0 , b -> 1
 then convert binary to ASCII
 
-(Example flow)[https://gchq.github.io/CyberChef/#recipe=Substitute('ab','01',false)From_Binary('Space',8)&input=YSBiIGIgYSBhIGIgYSBiIGEgYiBiIGEgYiBiIGIgYSBhIGIgYiBiIGEgYiBhIGEgYSBiIGIgYSBhIGIgYSBiIGEgYiBiIGIgYSBhIGIgYQ]
+[Example flow](https://gchq.github.io/CyberChef/#recipe=Substitute('ab','01',false)From_Binary('Space',8)&input=YSBiIGIgYSBhIGIgYSBiIGEgYiBiIGEgYiBiIGIgYSBhIGIgYiBiIGEgYiBhIGEgYSBiIGIgYSBhIGIgYSBiIGEgYiBiIGIgYSBhIGIgYQ)
 
 
 
@@ -162,7 +162,7 @@ Combining hash of a first part and remaining password pieces we get:
 
 Once again right after this we see "shabefanstoo" which means "SHA256 answer too", therefore we should calculate SHA sum of a previous puzzle pieces, emplaced after the first hash:
 
-(The flow)[https://gchq.github.io/CyberChef/#recipe=SHA2('256',64,160)&input=NDY4ZmMyMzg4NWE5YzUxMWUxMzhjY2FlNGRjZmYwM2M2N2U0YmFkM2JhN2Q3ZGZhOWQxOGJjNjMxY2U0MjY1MW91cmZpcnN0aGludGlzeW91cmxhc3Rjb21tYW5kZW50ZXIj]
+[The flow](https://gchq.github.io/CyberChef/#recipe=SHA2('256',64,160)&input=NDY4ZmMyMzg4NWE5YzUxMWUxMzhjY2FlNGRjZmYwM2M2N2U0YmFkM2JhN2Q3ZGZhOWQxOGJjNjMxY2U0MjY1MW91cmZpcnN0aGludGlzeW91cmxhc3Rjb21tYW5kZW50ZXIj)
 
 Result is:
 ```
@@ -204,7 +204,7 @@ kQA4wg50hAJqTynOQ09ArRHEchtB/7uvWZSBGJ7+zlzRGKx99P3oDZD+Y5D8bmUs
 mzRYrGnz9eBtepkJXDRjD6yvhNfQMCSkm6l9zMWxKvFbv5g2ae2SLrEt/x3MP2/G' | openssl enc -aes-256-cbc -d -k 2177eb06a4cdfb4869c1564e16a2ab10adc8f73753118d200dcfb4f2914afa77 -a
 ```
 
-You can easily check this in your terminal or with this (online tool)[https://www.cryptool.org/en/cto/openssl/]
+You can easily check this in your terminal or with this [online tool](https://www.cryptool.org/en/cto/openssl/)
 
 You would need to select "Encrypt & Decrypt" tab:
 <img src="./assets/cryptool-1.png" alt="cryptool1" />
