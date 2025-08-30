@@ -241,5 +241,5 @@ UQCNhbN-9r0gNJgtaiIt-bs9nIR4Dpl-Ncts3l9S4Atnat_e
 ```
 
 Sber (Russia):
-<img src="./assets/qr.jpg" alt="qr" />
+<img src="./assets/qr.jpg" alt="qr" width="400px" />
 
